@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Pixel Experience stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_INCLUDE_STOCK_ARCORE := false
 
 # We are a phone
@@ -29,6 +29,16 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi A2
-PRODUCT_NAME := aosp_jasmine_sprout
+PRODUCT_NAME := lineage_jasmine_sprout
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# RiceDroid Flags
+RICE_DEVICE := jasmine_sprout
+RICE_MAINTAINER := nhAsif & darkAngel
+RICE_CHIPSET := Snapdragon®660
+SUSHI_BOOTANIMATION := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_EXCLUDES_AUDIOFX := true
