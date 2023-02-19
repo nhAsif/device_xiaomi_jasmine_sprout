@@ -176,3 +176,7 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # Time-Services
 persist.timed.enable=true
+
+# Spark-OS
+ro.spark.maintainer= nhAsif&darkAngel
+ro.spark.maintainer.username= nhAsif&darkAngel
