@@ -180,3 +180,6 @@ persist.timed.enable=true
 # Spark-OS
 ro.spark.maintainer= nhAsif&darkAngel
 ro.spark.maintainer.username= nhAsif&darkAngel
+
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
