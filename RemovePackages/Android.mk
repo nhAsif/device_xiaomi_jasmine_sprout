@@ -13,7 +13,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     MyVerizonServices \
     OBDM_Permissions \
     GoogleTTS \
-    Velvet \
     MaestroPrebuilt \
     AndroidAutoStubPrebuilt \
     talkback \
